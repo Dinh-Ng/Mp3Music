@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DisconnectActivity">
+
+    <ImageView
+        android:id="@+id/icon_cry"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cry"/>
+    <TextView
+        android:id="@+id/txt_disconnect"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/icon_cry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnect"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_reload"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:text="reload"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_textview_so_luot_thich"/>
+</RelativeLayout>

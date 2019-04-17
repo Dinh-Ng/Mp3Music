@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/flamelayout_list_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgDanhsachPlaylist"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+    </FrameLayout>
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#060606"
+        android:id="@+id/txtDanhSachPlaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:lines="2"
+        android:maxLines="2"
+        android:maxWidth="200dp"
+        android:text="Ten Playlist" />
+    <TextView
+        android:id="@+id/txtCasiPlaylist"
+        android:textSize="13sp"
+        android:text="Nhiều ca sĩ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
